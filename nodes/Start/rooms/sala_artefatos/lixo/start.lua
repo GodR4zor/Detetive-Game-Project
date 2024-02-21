@@ -9,7 +9,6 @@ local Choice = require "choice"
 local node = Node:new(ID)
 node.title = "Lata de lixo"
 node.description = "Lata de lixo localizada perto do banheiro na sala de artefatos antigos."
-node.header = ""
 
 -- Node Choices
 

@@ -35,7 +35,7 @@ node.header = [[%{red}
 
 function node:dontHaveEvidence(newChoice)
     for _, choice in pairs(self.choices) do
-        if choice.destination == newChoice.destination then
+        if choice.description == newChoice.description then
             return true
         end
     end
